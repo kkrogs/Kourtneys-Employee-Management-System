@@ -10,7 +10,7 @@ The goal of the project is to create an easy-to-use employee management system w
 * [Contributors](#contributors)
 * [Questions](#questions)
 # Installation
-The following necessary dependencies must be installed to run the application The user needs to install sql using npm i sql and inquiry using npm i inquirer.
+The following necessary dependencies must be installed to run the application: SQL needs to be installed on the local computer using the application. They will also need to install the SQL package after cloning the repositiory. See the below #Usage section for full instructions.
 # Usage
 1.) In order to use this app, the user first needs to install SQL on their local machine. See instructions:
 https://coding-boot-camp.github.io/full-stack/mysql/mysql-installation-guide
