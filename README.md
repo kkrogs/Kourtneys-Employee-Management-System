@@ -20,11 +20,17 @@ https://coding-boot-camp.github.io/full-stack/mysql/mysql-installation-guide
 ![image](https://user-images.githubusercontent.com/95041311/159190260-b68797f5-726f-4ebd-ae07-aac12f88a9e9.png)
 4.) After installing, please locate the server.js file line 17 and put your SQL password in. See below screenshot on where this needs to happen. Make sure that the password is typed in between the single quotes:
 ![image](https://user-images.githubusercontent.com/95041311/159190392-f21b199f-8769-4ef3-b9bc-38346b96fffc.png)
-5.) Once we make sure that the password is entered in correctly for your local SQL, please go back to your git bash terminal and cd into the 'db/' file:
+5.) Once we make sure that the password is entered in correctly for your local SQL, please go back to your git bash terminal and cd into the '/db' folder:
 
 ![image](https://user-images.githubusercontent.com/95041311/159190481-fcd49e17-97ac-4997-a109-456e785cd6de.png)
 
-*Note that 'testerFolder' is where I cloned the repository to. This may be different for you based on where you cloned it into your computer.
+*Note that 'testerFolder' is where I cloned the repository to. This may be different for you based on where you cloned it into your computer.*
+6.) After getting into the '/db' folder, please run 'mysql -u root -p' and then type in your SQL password.
+![image](https://user-images.githubusercontent.com/95041311/159190563-814ba405-c0b1-42b0-98e2-42d0325995da.png)
+
+7.) Once you are into SQL, please type the command 'SOURCE schema.sql':
+
+
 # License
 This project is licensed under the MIT license.
 
