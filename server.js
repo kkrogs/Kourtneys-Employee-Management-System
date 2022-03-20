@@ -55,6 +55,7 @@ const promptUser = () => {
                 'Delete an employee',
                 'No Action']
     }
+    //Creating an if statement to call certain functions based on user's answers
   ])
     .then((answers) => {
       const { choices } = answers; 
