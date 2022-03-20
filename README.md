@@ -12,7 +12,14 @@ The goal of the project is to create an easy-to-use employee management system w
 # Installation
 The following necessary dependencies must be installed to run the application The user needs to install sql using npm i sql and inquiry using npm i inquirer.
 # Usage
-In order to use this app, The user first needs to clone the repository to their local machine. After cloning, they need to...
+1.) In order to use this app, the user first needs to install SQL on their local machine. See instructions:
+https://coding-boot-camp.github.io/full-stack/mysql/mysql-installation-guide
+
+2.) In order to use this app, The user first needs to clone the repository to their local machine. 
+3.) After cloning, they need to open up gitbash in their terminal and run 'npm i sql' as pictured below:
+![image](https://user-images.githubusercontent.com/95041311/159190260-b68797f5-726f-4ebd-ae07-aac12f88a9e9.png)
+
+
 # License
 This project is licensed under the MIT license.
 
