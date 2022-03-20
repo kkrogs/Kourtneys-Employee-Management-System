@@ -15,9 +15,11 @@ The following necessary dependencies must be installed to run the application Th
 1.) In order to use this app, the user first needs to install SQL on their local machine. See instructions:
 https://coding-boot-camp.github.io/full-stack/mysql/mysql-installation-guide
 
-2.) In order to use this app, The user first needs to clone the repository to their local machine. 
+2.) Then, the user needs to clone the repository to their local machine. 
 3.) After cloning, they need to open up gitbash in their terminal and run 'npm i sql' as pictured below:
 ![image](https://user-images.githubusercontent.com/95041311/159190260-b68797f5-726f-4ebd-ae07-aac12f88a9e9.png)
+4.) After installing, please locate the server.js file line 17 and put your SQL password in. See below screenshot on where this needs to happen. Make sure that the password is typed in between the single quotes:
+![image](https://user-images.githubusercontent.com/95041311/159190392-f21b199f-8769-4ef3-b9bc-38346b96fffc.png)
 
 
 # License
