@@ -1,29 +1,30 @@
-// import mysql2
+// requiring sqpl package
 const mysql = require('mysql2')
-// import inquirer 
+// requiring inquirer
 const inquirer = require('inquirer'); 
-// import console.table
+// requiring console table
 const cTable = require('console.table'); 
 
+//Instructions:
 //install mysql, source into schema and seeds, and then run npm start
 
 require('dotenv').config()
 
-// connection to database
+// creating a connection to sql database
 const connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
   password: '#1Havesomefun',
   database: 'employee_db'
 });
-
+//if connection to database fails, throw a connection error
 connection.connect(err => {
   if (err) throw err;
   console.log('connected as id ' + connection.threadId);
   afterConnection();
 });
 
-// function after connection is established and welcome image shows 
+// Welcome image after connection to database is established 
 afterConnection = () => {
   console.log("***********************************")
   console.log("*                                 *")
@@ -33,7 +34,7 @@ afterConnection = () => {
   promptUser();
 };
 
-// inquirer prompt for first action
+// inquirer prompt to ask questions to user
 const promptUser = () => {
   inquirer.prompt ([
     {
