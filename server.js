@@ -114,7 +114,7 @@ const promptUser = () => {
   });
 };
 
-// function to show all departments 
+// function that allows user to view all current departments that exist 
 showDepartments = () => {
   console.log('Showing all departments...\n');
   const sql = `SELECT department.id AS id, department.name AS department FROM department`; 
@@ -126,7 +126,7 @@ showDepartments = () => {
   });
 };
 
-// function to show all roles 
+// function to allow users to view all roles 
 showRoles = () => {
   console.log('Showing all roles...\n');
 
@@ -141,7 +141,7 @@ showRoles = () => {
   })
 };
 
-// function to show all employees 
+// function to show all current employees 
 showEmployees = () => {
   console.log('Showing all employees...\n'); 
   const sql = `SELECT employee.id, 
