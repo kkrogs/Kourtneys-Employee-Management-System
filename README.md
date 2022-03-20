@@ -46,8 +46,21 @@ https://coding-boot-camp.github.io/full-stack/mysql/mysql-installation-guide
 
 From there, you can start the application. This applicaion allows the user to:
 
+                'View all departments', 
+                'View all roles', 
+                'View all employees', 
+                'Add a department', 
+                'Add a role', 
+                'Add an employee', 
+                'Update an employee role',
+                'Update an employee manager',
+                "View employees by department",
+                'Delete a department',
+                'Delete a role',
+                'Delete an employee',
+                'No Action'
 
-Please see video below for instructions on how to run the program:
+Please see video below for full instructions on how to run the program:
 
 # License
 This project is licensed under the MIT license.
