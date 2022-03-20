@@ -8,7 +8,6 @@ The goal of the project is to create an easy-to-use employee management system w
 * [Usage](#usage)
 * [License](#license)
 * [Contributors](#contributors)
-* [Tests](#tests)
 * [Questions](#questions)
 # Installation
 The following necessary dependencies must be installed to run the application The user needs to install sql using npm i sql and inquiry using npm i inquirer.
@@ -20,8 +19,6 @@ This project is licensed under the MIT license.
 
 # Contributors
  Kourtney Krogman
-# Tests
-The following is needed to run the test: tbd
 # Questions
 If you have any questions about the repository, feel free to contact me at kourtney.krogman@gmail.com.
 
