@@ -13,4 +13,9 @@ VALUES ("CEO", 200000, 1),
 
 
 INSERT INTO employee (employee_first_name, employee_last_name, employee_role_id, manager_id)
-VALUES ("Maria", "Santos", 1, NULL);
+VALUES ("Nina", "Simone", 1, NULL),
+       ("Anne", "Hathaway", 1, 1),
+       ("Michelle", "Rodriguez", 2, 1),
+       ("Jessica", "Simpson", 3, 1),
+       ("Cheri", "Jensen", 4, 1),
+       ("Kelly", "Swanson", 5, 1);
