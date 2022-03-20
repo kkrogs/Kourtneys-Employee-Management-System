@@ -29,13 +29,25 @@ https://coding-boot-camp.github.io/full-stack/mysql/mysql-installation-guide
 ![image](https://user-images.githubusercontent.com/95041311/159190563-814ba405-c0b1-42b0-98e2-42d0325995da.png)
 
 7.) Once you are into SQL, please type the command 'SOURCE schema.sql':
+
 ![image](https://user-images.githubusercontent.com/95041311/159190594-31eaaf5a-3a1e-4094-a589-34dd3c32546c.png)
 
 8.) Then, type the command 'SOURCE seeds.sql':
+
 ![image](https://user-images.githubusercontent.com/95041311/159190616-f549940d-52c4-4098-a0d8-29d37643351b.png)
 
-9.)
+9.) Exit SQL by typing the command 'exit;'
 
+![image](https://user-images.githubusercontent.com/95041311/159190664-3c98beb6-1d89-437c-a73a-d28a8e0cb9bd.png)
+
+10.) After exiting out of SQL, please run the command 'sql start':
+
+![image](https://user-images.githubusercontent.com/95041311/159190698-a4cb42a3-eba5-4467-8de7-14663a9dd4fa.png)
+
+From there, you can start the application. This applicaion allows the user to:
+
+
+Please see video below for instructions on how to run the program:
 
 # License
 This project is licensed under the MIT license.
