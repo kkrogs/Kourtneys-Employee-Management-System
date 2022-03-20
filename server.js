@@ -192,7 +192,7 @@ addDepartment = () => {
   });
 };
 
-// function to add a role 
+// function to add a role, if the user does not enter anything as a role the system will state 'please enter a role'
 addRole = () => {
   inquirer.prompt([
     {
