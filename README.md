@@ -60,7 +60,7 @@ From there, you can start the application. This applicaion allows the user to:
                 'Delete an employee',
                 'No Action'
 
-Please see video below for full instructions on how to run the program:
+Please see video below for the rest of the instructions on how to utilize the program: https://app.vidcast.io/share/7d50b012-10ca-41e1-af1e-b14fe885f2a3
 
 # License
 This project is licensed under the MIT license.
